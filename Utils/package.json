@@ -1,0 +1,23 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.4",
+    "multer": "^1.4.5-lts.1",
+    "request": "^2.88.2",
+    "request-promised": "^1.0.2",
+    "unirest": "^0.6.0"
+  }
+}
