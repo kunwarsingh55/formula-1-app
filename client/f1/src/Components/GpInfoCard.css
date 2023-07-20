@@ -1,47 +1,79 @@
 .parent {
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-  }
+  height: 25rem;
+  width: 20rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
+
+.image1 {
+  transition: transform 0.3s ease;
+  filter: saturate(200%) brightness(50%);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 120%;
+
+}
+
+.gp-card-content{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: 15px;
+}
+
+.image2 {
+  margin-top: 8px;
+  width: 70%;
+}
+
+.gp-card-title{
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+.parent:hover .image1 {
+  transform: scale(1.1);
+}
+
+
+
+
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.country-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-  .image1 {
-    transition: transform 0.3s ease;
-    filter: saturate(200%) brightness(70%) ;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    
+  color: rgb(255, 255, 255);
+}
+
+.date-container .calendar-icon {
+  
+  height: 16px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.date-logo {
+  -webkit-filter: invert(1);
+  filter: invert(1);
   }
 
-  .card:hover .image1 {
-    transform: scale(1.1);
-  }
-  
-  .image2 {
-    position: absolute;
-    top: 50px;
-    left: 30px;
-    width: 80%;
-    
-  }
-
-  .date-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .date-container .calendar-icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-    flex-shrink: 0;
-  }
-  
-  .date-container p {
-    margin: 0;
-  }
-  
+.date-container p {
+  margin: 0;
+}
