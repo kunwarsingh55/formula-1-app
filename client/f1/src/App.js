@@ -1,9 +1,12 @@
 import './App.css';
-import GpInfoCard from './Components/GpInfoCard';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import logo from './Components/f1_logo.svg';
+
 import CurrentResults from './Components/CurrentResults'
+import RaceResults from './Components/RaceResults/RaceResults';
+
+import NavBar from './Components/NavBar/NavBar';
+
 
 
 function App() {
@@ -40,23 +43,12 @@ function App() {
 
   return (
     <div className="App">
-      <div className="bg-container">
-      <div className="navbar-container">
-      <nav class="navbar bg-body-tertiary" style={{ "background-color": "red" }}>
-          <div class="container-fluid d-flex justify-content-center">
-            <a class="navbar-brand">
-              <img src={logo} alt="Bootstrap" height="32" />
-            </a>
-          </div>
-        </nav>
-      </div>
-        
-        <div className="content-container">
-          <GpInfoCard />
-          <CurrentResults results={results} />
-        </div>
-      </div>
+      <NavBar/>
+      <div className='content-container'>
+      <RaceResults/>
 
+      </div>
+      
 
 
     </div>

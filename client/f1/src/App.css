@@ -1,26 +1,27 @@
+
+@font-face {
+  font-family: 'f1-regular'; /*a name to be used later*/
+  src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf'); /*URL to font*/
+}
+
 .App {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #c6c6c6;
-  min-height: "100vh"
+  background-color: #fff9f9;
+  min-height: "100vh";
+  font-family: 'f1-regular';
 }
 
-.navbar-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
 
 .content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
+
   justify-content: flex-start;
-  margin-top: 64px;
+  margin-top: 58px;
 }
 
 .bg-container {

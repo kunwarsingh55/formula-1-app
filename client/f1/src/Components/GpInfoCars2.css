@@ -1,0 +1,47 @@
+.parent {
+    overflow: hidden;
+    border-radius: 5px;
+    height: auto;
+  }
+  
+  .gp-card-content{
+   
+  }
+
+
+  .gp-card-title{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+  }
+
+  
+  .date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  
+  .country-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(89, 0, 0);
+  }
+  
+  .date-container .calendar-icon {
+    
+    height: 16px;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+  
+  .date-logo {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    }
+  
+  .date-container p {
+    margin: 0;
+  }

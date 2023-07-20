@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'f1-bold'; /*a name to be used later*/
+    src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.ttf'); /*URL to font*/
+  }
+
+.main{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.heading{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-family: 'f1-bold';
+    font-size: x-large;
+}
+
+.divider{
+    height: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: black;
+}
+
+.result-area{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.track-details{
+    width: 50%;
+}
+
+.result-table-area{
+    width: 50%;
+}
